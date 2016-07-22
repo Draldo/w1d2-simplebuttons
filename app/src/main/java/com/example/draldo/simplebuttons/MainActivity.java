@@ -18,5 +18,8 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout ll =  (LinearLayout)findViewById(R.id.a_main_layout);
         Button btn2 = (Button)findViewById(R.id.a_main_btn_2);
         Button btn3 = (Button)findViewById(R.id.a_main_btn_3);
+
+        ll.removeView(btn2);
+        ll.removeView(btn3);
     }
 }
